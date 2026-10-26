@@ -1,0 +1,13 @@
+# line-workshop-starter
+- **Purpose:** โฟลเดอร์เริ่มต้นแจกให้นักเรียน Workshop LINE (1+2) — มี `CLAUDE.md` ที่เป็นกฎกลางให้ Claude สร้างระบบแจ้งเตือน LINE ให้ถูกต้องตามที่ตั้งใจ (ห้ามพิมพ์คำสั่งใน terminal เด็ดขาด, ตั้ง webhook อัตโนมัติ, เก็บค่าลับใน config.ini ฯลฯ) โดยไม่ต้องพึ่งว่าประโยคสั่งงานในแชตจะเป๊ะทุกคำ
+- **Status:** active
+- **Version:** ไม่มี version number — อ้างอิงด้วย git commit (repo public ให้นักเรียนโหลด ZIP ตรงๆ)
+- **Code path:** /Volumes/M2Data/dev/line-workshop-starter
+- **Run:** ไม่มีการรัน — นักเรียนกด Code → Download ZIP บน GitHub แล้วเปิดโฟลเดอร์ที่แตกไฟล์แล้วเป็นโปรเจกต์ใน Claude Desktop/Code
+- **Stack:** เอกสาร Markdown ล้วน (`CLAUDE.md` + `README.md`) ไม่มีโค้ด
+- **Port:** ไม่มี
+- **Secrets:** ไม่มี — เป็นไฟล์เอกสารล้วน ไม่มีค่าลับใดๆ จึงตั้ง repo เป็น public ได้อย่างปลอดภัย
+- **Deploy:** GitHub public repo (`github.com/aphrodizegit/line-workshop-starter`) — นักเรียนดาวน์โหลด ZIP ได้โดยไม่ต้องล็อกอิน GitHub
+- **Reusable:** pattern "ใช้ `CLAUDE.md` เป็นกฎกลางของ workshop แทนประโยคสั่งงานที่ต้องเป๊ะทุกคำ" — ใช้ซ้ำได้กับ workshop/คอร์สอื่นที่ต้องการให้ Claude ทำงานสม่ำเสมอข้ามผู้เรียนหลายคนโดยไม่พึ่งการจำคำสั่งพิเศษ
+- **Lessons:** ตั้ง repo เป็น private ไว้ตอนสร้างครั้งแรก (ตามธรรมเนียม AES ทั่วไป) แล้วพบว่านักเรียนกด Download ZIP ไม่ได้เพราะต้องล็อกอิน GitHub เป็นสมาชิก repo ก่อน — ขัดกับหลัก "ไม่เพิ่มขั้นตอนสมัครบัญชีที่ไม่จำเป็น" ของ workshop นี้ แก้โดยเปลี่ยนเป็น public (ปลอดภัยเพราะไม่มีความลับในไฟล์เลย). **บทเรียนทั่วไป:** repo starter ที่แจกให้ผู้เรียน/บุคคลภายนอกโหลดโดยตรง ต้องเป็น public ตั้งแต่แรกถ้าไม่มีข้อมูลลับ ไม่ใช่ private-by-default แบบโปรเจกต์ภายในทั่วไป
+- **Updated:** 2026-10-26
